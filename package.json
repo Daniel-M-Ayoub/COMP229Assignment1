@@ -1,9 +1,13 @@
 {
-  "name": "week3classt3",
-  "version": "0.0.0",
+  "name": "comp229-f2021assignment1",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -15,5 +19,18 @@
     "http-errors": "~1.6.3",
     "jquery": "^3.6.0",
     "morgan": "~1.9.1"
-  }
+  },
+  "description": "Assignment 1 demo app",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-M-Ayoub/COMP229Assignment1.git"
+  },
+  "author": "Daniel Ayoub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daniel-M-Ayoub/COMP229Assignment1/issues"
+  },
+  "homepage": "https://github.com/Daniel-M-Ayoub/COMP229Assignment1#readme"
 }
